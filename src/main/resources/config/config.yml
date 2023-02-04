@@ -1,3 +1,5 @@
-custom:
+compose:
   LargeClass:
+    active: true
+  DpInComposable:
     active: true
