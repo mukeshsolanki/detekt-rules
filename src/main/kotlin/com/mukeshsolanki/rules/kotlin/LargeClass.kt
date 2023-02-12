@@ -1,4 +1,4 @@
-package com.mukeshsolanki.rules
+package com.mukeshsolanki.rules.kotlin
 
 import io.gitlab.arturbosch.detekt.api.*
 import io.gitlab.arturbosch.detekt.rules.hasAnnotation

@@ -1,9 +1,9 @@
-package com.mukeshsolanki.rules
+package com.mukeshsolanki.rules.compose
 
 import io.gitlab.arturbosch.detekt.api.*
 import org.jetbrains.kotlin.psi.KtDotQualifiedExpression
 
-class DpInComposable(config: Config) : Rule(config) {
+class DpInComposable : Rule() {
     override val issue = Issue(
         id = "DpInComposable",
         severity = Severity.Defect,

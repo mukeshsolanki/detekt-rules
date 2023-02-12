@@ -1,5 +1,12 @@
 compose:
-  LargeClass:
-    active: true
   DpInComposable:
+    active: true
+  MissingDefaultModifier:
+    active: true
+  NoMutableStateParameter:
+    active: true
+  RememberMutableState:
+    active: true
+kotlin:
+  LargeClass:
     active: true
